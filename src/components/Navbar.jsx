@@ -23,7 +23,7 @@ const Navbar = () => {
               About
             </a>
             <a
-              href="#experienced"
+              href="#experience"
               className="text-white hover:text-gray-400 transition duration-300"
             >
               Experience
@@ -95,7 +95,7 @@ const Navbar = () => {
               About
             </a>
             <a
-              href="#experienced"
+              href="#experience"
               className="text-white py-2 px-4 hover:bg-gray-700 rounded"
               onClick={toggleMenu}
             >

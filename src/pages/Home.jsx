@@ -1,14 +1,14 @@
 import React from "react";
-import profileImage from "../assets/Professional Photo.jpg"; // Ensure correct path
+import profileImage from "../assets/Professional Photo.jpg";
 
 const Home = () => {
   return (
-    <section className="min-h-screen flex items-center bg-[#1a1f2c]"> {/* Ensuring full-screen height */}
-      <div className="container mx-auto px-6 w-full">
-        <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+    <section className="min-h-screen flex items-center bg-[#1a1f2c] w-full">
+      <div className="w-full mx-auto max-w-none px-6 h-full"> 
+        <div className="flex flex-col lg:flex-row justify-center items-center w-full">
           
           {/* Left Content */}
-          <div className="lg:w-1/2 text-white space-y-6">
+          <div className="w-full lg:w-1/2 text-white space-y-6 ml-8 lg:ml-16">
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
               Hello<br />there...
             </h1>
@@ -30,19 +30,19 @@ const Home = () => {
               </button>
               <button 
                 className="px-6 py-3 border-2 border-[#ff4d05] text-[#ff4d05] rounded hover:bg-[#ff4d05] hover:text-white transition duration-300"
-                onClick={() => window.open('/path-to-your-resume.pdf', '_blank')}
+                onClick={() => window.open('/AnuragResume.pdf', '_blank')}
               >
                 My Resume
               </button>
             </div>
           </div>
-
+    
           {/* Right Content - Image */}
-          <div className="lg:w-1/2 flex justify-center lg:justify-end items-center mt-6 lg:mt-0">
+          <div className="hidden lg:flex w-full lg:w-1/2 justify-center items-center mt-6 lg:mt-0">
             <img
               src={profileImage}
               alt="Professional headshot"
-              className="rounded-lg max-w-sm w-full object-cover shadow-lg"
+              className="rounded-lg w-full max-w-md object-cover shadow-lg"
             />
           </div>
         </div>
