@@ -4,8 +4,8 @@ import AboutPhoto from "../assets/AboutPhoto.jpg";
 const About = () => {
   return (
     <section id="about" className="min-h-screen bg-[#1a1f2c] flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8">
-      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
+      <div className="container  max-w-full px-4 sm:px-6 lg:px-8">
+      {/* Heading */}
         <div className="flex flex-col items-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">About Me</h2>
           <div className="w-24 h-1 bg-[#ff4d05] rounded-full"></div>

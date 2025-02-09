@@ -5,8 +5,8 @@ import profileImage from "../assets/Professional Photo.jpg";
 const Home = () => {
   return (
     <section className="min-h-screen flex items-center bg-[#1a1f2c] w-full">
-      <div className="w-full mx-auto max-w-none px-6 h-full"> 
-        <div className="flex flex-col lg:flex-row justify-center items-center w-full">
+      <div className="w-full  max-w-full px-6 h-full"> 
+      <div className="flex flex-col lg:flex-row justify-center items-center w-full min-h-screen">
           
           {/* Left Content */}
           <div className="w-full lg:w-1/2 text-white space-y-6 ml-8 lg:ml-16">
