@@ -1,4 +1,5 @@
 import React from "react";
+import { TypeAnimation } from 'react-type-animation';
 import profileImage from "../assets/Professional Photo.jpg";
 
 const Home = () => {
@@ -12,14 +13,25 @@ const Home = () => {
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
               Hello<br />there...
             </h1>
-            <h2 className="text-4xl lg:text-6xl font-bold text-[#ff4d05] mt-2">
-              Anurag Agrawal
+            <h2 className="text-4xl lg:text-5xl font-bold text-[#ff4d05] mt-2">
+              <TypeAnimation
+                sequence={[
+                  'I am Anurag Agrawal',
+                  2000,
+                  'I am Freelancer',
+                  2000,
+                  'I am Data Science Enthusiast',
+                  2000,
+                  'I am Software Developer',
+                  2000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
             </h2>
-            <p className="text-xl text-[#8892b0]">
-              I Am a Passionate Developer
-            </p>
             <p className="text-[#8892b0] max-w-md">
-              The dynamics of how users interact with elements within a user interface flow.
+              Transforming ideas into elegant digital solutions through creative development and innovative problem-solving.
             </p>
             <div className="flex gap-4 mt-6">
               <button 

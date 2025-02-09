@@ -4,9 +4,7 @@ import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import SkillandEduction from "./pages/SkillandEduction";
 import Projects from "./pages/Projects";
-
-
-import Testimonial from "./pages/Testimonial";
+// import Testimonial from "./pages/Testimonial";
 import Contact from "./pages/Contact";
 
 export default function App() {
@@ -18,8 +16,8 @@ export default function App() {
       <About/>
       <SkillandEduction/>
       <Experience/>
-      <Projects/>
-      <Testimonial/>
+      {/* <Projects/> */}
+      {/* <Testimonial/> */}
       <Contact/>
      
     </div>

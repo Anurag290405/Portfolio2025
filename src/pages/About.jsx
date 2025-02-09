@@ -1,52 +1,52 @@
 import React from "react";
-import AboutPhoto from "../assets/AboutPhoto.jpg"; 
+import AboutPhoto from "../assets/AboutPhoto.jpg";
+
 const About = () => {
   return (
-<section id="about" className="min-h-screen bg-[#1a1f2c] flex items-center justify-end py-16 pr-16">
-<div className="container mx-auto px-6 max-w-none">
-<div className="flex flex-col items-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-3">About Me</h2>
-          <div className="w-24 h-1 bg-[#ff4d05] mx-auto rounded-full"></div>
-        
-          
+    <section id="about" className="min-h-screen bg-[#1a1f2c] flex items-center justify-center py-16 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Heading */}
+        <div className="flex flex-col items-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">About Me</h2>
+          <div className="w-24 h-1 bg-[#ff4d05] rounded-full"></div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center gap-12">
+        {/* Content */}
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
           {/* Image Container */}
-          <div className="lg:w-1/2">
+          <div className="w-full lg:w-1/2 flex justify-center">
             <div className="relative">
-              <div className="w-full h-full absolute -top-4 -left-4  "></div>
+              {/* <div className="w-full h-full absolute -top-4 -left-4 bg-[#ff4d05] opacity-20 rounded-lg"></div> */}
               <img
                 src={AboutPhoto}
                 alt="Professional portrait"
-                className="w-full max-w-xs mx-auto rounded-lg object-cover relative z-10"
+                className="w-full max-w-xs sm:max-w-sm md:max-w-md rounded-lg object-cover relative z-10"
               />
             </div>
           </div>
 
           {/* Text Content */}
-          <div className="lg:w-1/2 space-y-6">
-        <p className="text-gray-400 leading-relaxed font-semibold">
-         Software Engineer | PR Head | Google Cloud Mentor | Data Science Enthusiast
-        </p>
-        <p className="text-gray-400 leading-relaxed">
-         I am a software engineer passionate about building impactful digital solutions and exploring the world of Data Science.  
-    From data preprocessing to machine learning and data mining, I enjoy uncovering insights that drive intelligent decision-making.
-  </p>
-  <p className="text-gray-400 leading-relaxed">
-    As the PR Head & Google Cloud Mentor at GDSC, I bridge technology and community, guiding aspiring developers.  
-    Managing the Mentor-Mentee Portal at Medi-Caps University has strengthened my leadership in project development.
-  </p>
-  <p className="text-gray-400 leading-relaxed">
-         Beyond coding, I love writing articles on technology, data science, and leadership.  
-        Always eager to learn, solve challenges, and create meaningful tech experiences.
-        </p>
-           
+          <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
+            <p className="text-gray-400 leading-relaxed font-semibold">
+              Software Engineer | PR Head | Google Cloud Mentor | Data Science Enthusiast
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              I am a software engineer passionate about building impactful digital solutions and exploring the world of Data Science.  
+              From data preprocessing to machine learning and data mining, I enjoy uncovering insights that drive intelligent decision-making.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              As the PR Head & Google Cloud Mentor at GDG, I bridge technology and community, guiding aspiring developers.  
+              Managing the Mentor-Mentee Portal at Medi-Caps University has strengthened my leadership in project development.
+            </p>
+            <p className="text-gray-400 leading-relaxed">
+              Beyond coding, I love writing articles on technology, data science, and leadership.  
+              Always eager to learn, solve challenges, and create meaningful tech experiences.
+            </p>
 
+            {/* Download CV Button */}
             <button 
-              className="px-6 py-3 bg-[#ff4d05] text-white rounded flex items-center gap-2 hover:bg-[#ff6a33] transition duration-300"
+              className="px-6 py-3 bg-[#ff4d05] text-white rounded flex items-center gap-2 hover:bg-[#ff6a33] transition duration-300 mx-auto lg:mx-0"
               onClick={() => window.open('/AnuragResume.pdf', '_blank')}
-
             >
               <svg 
                 className="w-5 h-5" 

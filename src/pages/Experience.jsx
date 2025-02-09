@@ -91,8 +91,8 @@ const Experience = () => {
   ];
 
   return (
-    <section id="experience" className="w-full bg-[#1a1f2c] py-20 px-4">
-      <div className="max-w-6xl mx-auto">
+    <section id="experience" className="w-full bg-[#1a1f2c]  min-h-screen py-20 px-4">
+      <div className="max-w-6xl mx-auto w-full overflow-hidden">
         <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white mb-3">Experience</h2>
         
