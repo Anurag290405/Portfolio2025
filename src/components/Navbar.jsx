@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-full">
           {/* Logo or Brand Name */}
           <div className="text-white text-xl font-bold tracking-wider hover:text-[#ff4d05] transition-colors duration-300">
-            Portfolio
+            Anurag
           </div>
 
           {/* Desktop Menu */}
