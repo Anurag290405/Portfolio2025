@@ -16,7 +16,7 @@ export default function App() {
       <About/>
       <SkillandEduction/>
       <Experience/>
-      {/* <Projects/> */}
+      <Projects/>
       {/* <Testimonial/> */}
       <Contact/>
      

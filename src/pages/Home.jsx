@@ -1,6 +1,6 @@
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
-import profileImage from "../assets/Professional Photo.jpg";
+import profileImage from "../assets/Professional Photo.webp";
 
 const Home = () => {
   return (
