@@ -14,6 +14,18 @@ const Project = () => {
       live: "http://career.medicaps.ac.in:9092/home/home1"
     },
     {
+      title: "Mentor-Mentee  Portal For Medi-Caps University",
+      description: "A web application designed to facilitate mentor-mentee relationships at Medi-Caps University. It includes features for profile management, communication, and resource sharing.",
+      technologies: ["React", "Node.js", "Supabase"],
+      // live: "http://career.medicaps.ac.in:9092/home/home1"
+    },
+    {
+      title: "Developers' Community Website Redesigned",
+      description: "A web application designed to facilitate mentor-mentee relationships at Medi-Caps University. It includes features for profile management, communication, and resource sharing.",
+      technologies: ["React", "Springboot", "MySQL", "Tailwind CSS"],
+      // live: "http://"
+    },
+    {
       title: "House Price Prediction Model",
       description: "A machine learning model built using Python that predicts house prices based on various features such as location, size, and amenities. Developed using regression techniques and data visualization.",
       technologies: ["Python", "Jupyter Notebook"],
@@ -31,18 +43,7 @@ const Project = () => {
       technologies: ["HTML", "CSS", "JavaScript"],
       github: "https://github.com/Anurag290405/TravelWEbsite"
     },
-    {
-      title: "Hotstar Clone",
-      description: "A clone of the Hotstar streaming platform, featuring a responsive UI, video streaming capabilities, and category-based content filtering.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Anurag290405/HOTSTAR-CLONE"
-    },
-    {
-      title: "Netflix Clone",
-      description: "A Netflix-inspired streaming platform with a sleek UI, movie/TV show categories, and a responsive design.",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/Anurag290405/NetflixClone"
-    }
+   
   ];
 
   const updateItemsPerSlide = () => {

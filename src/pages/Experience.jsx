@@ -4,9 +4,9 @@ import { Briefcase, Calendar, ChevronRight, ArrowUpRight } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      title: "Project Manager",
+      title: "Technical Head and Project Manager",
       company: "MII Foundation",
-      duration: "Jan 2025 - Present",
+      duration: "Jun 2025 - Present",
       location: "Indore, Madhya Pradesh, India",
       type: "Internship",
       description: [
@@ -15,6 +15,10 @@ const Experience = () => {
         "Implemented efficient project management strategies to streamline workflow and enhance team collaboration"
       ],
       promotions: [
+         {
+          date: "June 2025",
+          details: "Promoted to Technical Head based on exceptional performance as Project Manager"
+        },
         {
           date: "Jan 2025",
           details: "Promoted to Project Manager based on exceptional performance as Frontend Developer"
